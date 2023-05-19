@@ -27,6 +27,7 @@ class SpringbootRabbitApplicationTests {
 
         String day = LocalDateTime.now().minusDays(1).format(DateTimeFormatter.ofPattern("yyyyMMdd"));
         System.out.println(day);
+        System.out.println("sfsd");
     }
 
 
